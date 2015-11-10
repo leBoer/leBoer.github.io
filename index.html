@@ -11,6 +11,7 @@
 
 <body>
   <div class="grid">
+
     <header>
       <div class="row">
         <div class="col-6">
@@ -25,15 +26,23 @@
 
     <div class="row">
       <div class="col-12">
-        <img src="images/seacropped-1600large_30.jpg" alt="A picture of the ocean, with a couple of moored sailboats">
+        <picture>
+            <source media="(min-width: 500px)" srcset="images/seacropped-1600large_30.jpg">
+            <source media="(max-width: 499px)" srcset="images/seacropped-483483.jpg">
+          <img src="images/seacropped-483483.jpg" alt="A picture of the ocean, with a couple of moored sailboats">
+        </picture>
       </div>
     </div>
     <div class="row">
       <h2>Featured Work</h2>
 
       <div class="col-4">
-        <div class="workimage"> 
-          <img src="images/building-300300.jpg" alt="A picture of a building with a blue sky above">
+        <div class="workimage">
+          <picture>
+            <source media="(min-width: 500px)" srcset="images/building-300300.jpg">
+            <source media="(max-width: 499px)" srcset="images/building-242242.jpg">
+            <img src="images/building-242242.jpg" alt="A picture of a building with a blue sky above">
+          </picture>
         </div>
         <div class="worklink">
           <a href="https://github.com/leBoer/Appify/"><h3>APPIFY</h3></a>
@@ -42,8 +51,12 @@
       </div>
 
       <div class="col-4">
-        <div class="workimage"> 
-          <img src="images/coffee-300300.jpg" alt="A picture of a table with iPad, coffee and some magazines">
+        <div class="workimage">
+          <picture>
+            <source media="(min-width: 500px)" srcset="images/coffee-300300.jpg">
+            <source media="(max-width: 499px)" srcset="images/coffee-242242.jpg">
+            <img src="images/coffee-242242.jpg" alt="A picture of a table with iPad, coffee and some magazines">
+          </picture>
         </div>
         <div class="worklink">
           <a href="https://github.com/leBoer/Electrify/"><h3>ELECTRIFY</h3></a>
@@ -52,8 +65,11 @@
       </div>
 
       <div class="col-4">
-        <div class="workimage"> 
-          <img src="images/drinks-300300.jpg" alt="A picture of two glasses of wine">
+        <div class="workimage">
+          <picture>
+            <source media="(min-width: 500px)" srcset="images/drinks-300300.jpg">
+            <source media="(max-width: 499px)" srcset="images/drinks-242242.jpg">
+            <img src="images/drinks-300300.jpg" alt="A picture of two glasses of wine">
         </div>
         <div class="worklink">
           <a href="https://github.com/leBoer/Appify/"><h3>SOLIDIFY</h3></a>
